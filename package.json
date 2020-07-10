@@ -1,0 +1,22 @@
+{
+  "name": "simple-app",
+  "version": "1.0.0",
+  "description": "Simple Nodejs App to connect for using with Kubernetes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GauravBhandari19/Kubernetes.git"
+  },
+  "author": "Gaurav Bhandari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GauravBhandari19/Kubernetes/issues"
+  },
+  "homepage": "https://github.com/GauravBhandari19/Kubernetes#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

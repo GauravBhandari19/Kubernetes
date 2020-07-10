@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: simple-app
+spec:
+    containers:
+        - image: gauravbhandari85/simple-app:1.0.0
+          name: simple-app
+          ports:
+              - containerPort: 3000
+                name: http
+                protocol: TCP
